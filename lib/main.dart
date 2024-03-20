@@ -56,7 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   Get.to(() => AlgorithmScreen());
                 },
               ),
-              Gap(AppLayout.getHeight(16)),
+              Gap(AppLayout.getHeight(50)),
               AppButton(
                 boxColor: Colors.blue,
                 textButton: 'Joke Screen',
